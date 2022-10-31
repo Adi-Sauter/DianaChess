@@ -20,8 +20,7 @@ import pygame as py
 import ChessEngine
 # from agents.expert import MrExpert
 from agents.random import MrRandom
-from student_agents.template import Agent as Agent1
-from student_agents.template2 import Agent as Agent2
+from student_agents.Atmaca_Sauter import Agent as Agent1
 # from student_agents.template3 import Agent as Agent3
 from sys import exit
 from multiprocessing import Process, Queue, freeze_support
