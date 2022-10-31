@@ -5,4 +5,6 @@
 To run the code, navigate (via terminal) to the folder 'dianachess' and paste 
 python3 ChessMain.py --agent1 MrRandom --agent2 Agent1 --verbose --use_gui
 
-This will start a game between our chess agent and a random move agent. If you yourself want to play against the agent, replace MrRandom by Human.
+This will start a game between our chess agent and a random move agent. If you yourself want to play against the agent, replace MrRandom by Human, i.e. paste:
+python3 ChessMain.py --agent1 Human --agent2 Agent1 --verbose --use_gui
+
